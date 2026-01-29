@@ -91,7 +91,7 @@ bun run lint   # ESLint
 
 ```
 ├── apps/
-│   ├── api/     # Hono API (Drizzle, Better Auth)
+│   ├── api/     # Hono API (Zod, Drizzle, Better Auth)
 │   └── web/     # Next.js app
 ├── package.json
 └── turbo.json
