@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
+import { Logo } from "@/components/logo"
 import Image from "next/image"
 
 export function DashboardPreview() {
@@ -13,13 +14,7 @@ export function DashboardPreview() {
         <CardHeader className="border-b bg-muted/30">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3 ml-2">
-              <Image
-                src="/logos/logo-dark.png"
-                alt="Logo"
-                width={82}
-                height={82}
-                className="object-contain"
-              />
+              <Logo variant="script" scriptClassName="text-xl font-semibold text-foreground" />
             </div>
             <Badge
               variant="outline"
