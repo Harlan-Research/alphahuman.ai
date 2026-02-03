@@ -1,5 +1,5 @@
 {
-  "name": "@grammar/api",
+  "name": "@alphahuman/api",
   "type": "module",
   "exports": {
     ".": {
