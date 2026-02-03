@@ -20,7 +20,7 @@ const app = new Hono()
       exposeHeaders: ["Content-Length", "Set-Cookie"],
       maxAge: 600,
       credentials: true,
-    })
+    }),
   )
 
   .on(["POST", "GET"], "/api/auth/*", (c) => auth.handler(c.req.raw))
@@ -35,4 +35,5 @@ const app = new Hono()
 
 type AppType = typeof app
 
-export { app, AppType }
+export type { AppType }
+export { app }
