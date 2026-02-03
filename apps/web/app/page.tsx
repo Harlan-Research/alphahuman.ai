@@ -7,7 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import Link from "next/link"
-import Image from "next/image"
+import { Logo } from "@/components/logo"
 import { Footer } from "@/components/footer"
 import { DashboardPreview } from "@/components/dashboard-preview"
 import { ScrollAnimation } from "@/components/scroll-animation"
@@ -40,14 +40,7 @@ export default function Home() {
       {/* Navigatio Bar */}
       <nav className="border-b bg-background/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-center relative">
-          <Link href="/" className="flex items-center">
-            <Image
-              src="/logos/logo-dark.png"
-              alt="Grammar Logo"
-              width={110}
-              height={100}
-            />
-          </Link>
+          <Logo width={110} height={100} variant="script" />
           <div className="flex items-center space-x-2 absolute right-4">
             <Button variant="outline" size="sm" asChild>
               <Link href="/sign-in">Sign In</Link>
