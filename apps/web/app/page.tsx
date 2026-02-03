@@ -37,7 +37,7 @@ export default function Home() {
         <div className="absolute top-2/3 right-1/5 w-12 h-12 bg-primary/7 rounded-full blur-lg"></div>
       </div>
 
-      {/* Navigation */}
+      {/* Navigatio Bar */}
       <nav className="border-b bg-background/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-center relative">
           <Link href="/" className="flex items-center">
