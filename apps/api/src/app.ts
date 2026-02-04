@@ -11,9 +11,9 @@ const app = new Hono()
     cors({
       origin: [
         "http://localhost:3000",
-        "https://app.grammar.so",
-        "https://api.grammar.so",
-        "https://grammar.so",
+        "https://app.alphahuman.ai",
+        "https://api.alphahuman.ai",
+        "https://alphahuman.ai",
       ],
       allowHeaders: ["Content-Type", "Authorization", "Cookie"],
       allowMethods: ["POST", "GET", "OPTIONS", "PUT", "DELETE"],
